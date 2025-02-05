@@ -12,6 +12,94 @@
 </head>
 
 <style>
+/* Roboto */
+
+@font-face {
+    font-family: "Roboto";
+    src: url(/Resources/fonts/Roboto/Roboto-Thin.ttf) format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(/Resources/fonts/Roboto/Roboto-Light.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(/Resources/fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(/Resources/fonts/Roboto/Roboto-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(/Resources/fonts/Roboto/Roboto-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(/Resources/fonts/Roboto/Roboto-Black.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+/* Oswald */
+@font-face {
+    font-family: "Oswald";
+    src: url(/Resources/fonts/Oswald/Oswald-ExtraLight.ttf) format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Oswald";
+    src: url(/Resources/fonts/Oswald/Oswald-ExtraLight.ttf) format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Oswald";
+    src: url(/Resources/fonts/Oswald/Oswald-Light.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Oswald";
+    src: url(/Resources/fonts/Oswald/Oswald-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Oswald";
+    src: url(/Resources/fonts/Oswald/Oswald-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Oswald";
+    src: url(/Resources/fonts/Oswald/Oswald-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Oswald";
+    src: url(/Resources/fonts/Oswald/Oswald-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
 
 
     /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -24,124 +112,124 @@
      * 2. Prevent adjustments of font size after orientation changes in iOS.
      */
     
-     img{
+    img{
         max-width: 100%;
-     }
+    }
     
      *{
         box-sizing: border-box;
         padding: 0;
         margin: 0;
-     }
-     html {
+    }
+    html {
         line-height: 1.15; /* 1 */
         -webkit-text-size-adjust: 100%; /* 2 */
-      }
-      
-      /* Sections
+    }
+
+    /* Sections
          ========================================================================== */
-      
-      /**
+
+    /**
        * Remove the margin in all browsers.
        */
-      
-      body {
+
+    body {
         margin: 0;
-      }
-      
-      /**
+    }
+    
+    /**
        * Render the `main` element consistently in IE.
        */
-      
-      main {
+    
+    main {
         display: block;
-      }
-      
-      /**
+    }
+    
+    /**
        * Correct the font size and margin on `h1` elements within `section` and
        * `article` contexts in Chrome, Firefox, and Safari.
        */
-      
-      h1 {
+    
+    h1 {
         font-size: 2em;
         margin: 0.67em 0;
-      }
-      
-      /* Grouping content
+    }
+    
+    /* Grouping content
          ========================================================================== */
-      
-      /**
-       * 1. Add the correct box sizing in Firefox.
-       * 2. Show the overflow in Edge and IE.
-       */
-      
-      hr {
+    
+    /**
+     * 1. Add the correct box sizing in Firefox.
+     * 2. Show the overflow in Edge and IE.
+     */
+    
+    hr {
         box-sizing: content-box; /* 1 */
         height: 0; /* 1 */
         overflow: visible; /* 2 */
-      }
-      
-      /**
+    }
+    
+    /**
        * 1. Correct the inheritance and scaling of font size in all browsers.
        * 2. Correct the odd `em` font sizing in all browsers.
        */
-      
-      pre {
+    
+    pre {
         font-family: monospace, monospace; /* 1 */
         font-size: 1em; /* 2 */
-      }
-      
-      /* Text-level semantics
+    }
+    
+    /* Text-level semantics
          ========================================================================== */
-      
-      /**
+    
+    /**
        * Remove the gray background on active links in IE 10.
        */
-      
-      a {
+    
+    a {
         background-color: transparent;
-      }
-      
-      /**
+    }
+    
+    /**
        * 1. Remove the bottom border in Chrome 57-
        * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
        */
-      
-      abbr[title] {
+    
+    abbr[title] {
         border-bottom: none; /* 1 */
         text-decoration: underline; /* 2 */
         text-decoration: underline dotted; /* 2 */
-      }
-      
-      /**
+    }
+    
+    /**
        * Add the correct font weight in Chrome, Edge, and Safari.
        */
-      
-      b,
-      strong {
+    
+    b,
+    strong {
         font-weight: bolder;
-      }
-      
-      /**
+    }
+    
+    /**
        * 1. Correct the inheritance and scaling of font size in all browsers.
        * 2. Correct the odd `em` font sizing in all browsers.
        */
-      
-      code,
-      kbd,
-      samp {
+    
+    code,
+    kbd,
+    samp {
         font-family: monospace, monospace; /* 1 */
         font-size: 1em; /* 2 */
-      }
-      
-      /**
+    }
+    
+    /**
        * Add the correct font size in all browsers.
        */
-      
-      small {
+    
+    small {
         font-size: 80%;
-      }
-      
+    }
+    
       /**
        * Prevent `sub` and `sup` elements from affecting the line height in
        * all browsers.
@@ -855,7 +943,7 @@
 
             <div class="menu-top_left">
 
-                <img src="/Resources/images/Puntos Amarillos.png" alt="Punto Amarillos">
+                <img src="./Resources/images/Puntos Amarillos.png" alt="Punto Amarillos">
                 
                 <div class="menu-top_left_Data-point">
 
@@ -885,7 +973,7 @@
 
                 <div class="menu-top_right_profile">
                     <i class="fa-solid fa-circle-user"></i>
-                    <a href="/HTML/Ticket.html">Profile</a>
+                    <a href="./Ticket.html">Profile</a>
                 </div>
 
             </div>
@@ -926,7 +1014,7 @@
             </div>
 
             <div class="main_image-superior">
-                <img src="/Resources/images/Imagen_Supeior_Index.jpg" alt="Imagen_Cupon">
+                <img src="./Resources/images/Imagen_Supeior_Index.jpg" alt="Imagen_Cupon">
             </div>
 
             <div class="main_text-lower_image">
@@ -1025,7 +1113,7 @@
             </div>
 
             <div class="main_image-superior">
-                <img src="/Resources/images/Objetos api.jpg" alt="Imagen_Cupon">
+                <img src="./Resources/images/Objetos api.jpg" alt="Imagen_Cupon">
             </div>
 
             <div class="main_text">
@@ -1033,7 +1121,7 @@
             </div>
             
             <div class="main_image-superior">
-                <img src="/Resources/images/Imagen_Inferior_Index.jpg" alt="Imagen_Cupon">
+                <img src="./Resources/images/Imagen_Inferior_Index.jpg" alt="Imagen_Cupon">
             </div>
 
             <div class="main_text-lower_image">
